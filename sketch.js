@@ -32,13 +32,13 @@ function draw() {
     if (targetBranchLength > MAX_SIZE) {
       noLoop()
       setTimeout(() => {
-        text('congrats! your stillness has borne fruit 🍑🍇🍎🍍', 50, 75);  
+        text('congrats! your stillness has borne fruit 🍇🍎🍍', 50, 75);  
       }, 1000)
     }
   }
 
   // Use lerp for a smooth transition
-  branchLength = lerp(branchLength, targetBranchLength, 0.5);
+  branchLength = lerp(branchLength, targetBranchLength, 0.8);
 }
 
 function mouseMoved() {
