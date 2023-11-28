@@ -13,7 +13,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   // Use degrees instead of radians
   angleMode(DEGREES);
-  frameRate(5);
+  frameRate(7);
   loop();
 }
 
@@ -32,7 +32,7 @@ function draw() {
     if (targetBranchLength > MAX_SIZE) {
       noLoop()
       setTimeout(() => {
-        text('congrats! you made it to the end', 50, 75);  
+        text('congrats! your stillness has borne fruit 🍑🍇🍎🍍', 50, 75);  
       }, 1000)
     }
   }
